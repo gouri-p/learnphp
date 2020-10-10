@@ -1,0 +1,32 @@
+<h1>Hi Gouri</h1>
+<?php
+$x="hello"+15;
+echo $x;
+$a=100;
+$b= $a>50 ? "large":"small";
+print $b;
+$ab=100;
+if ( $ab == 100 ){
+  print "hello";
+}
+else {
+  print "wrong";
+}
+
+while($a>1)
+{
+  print("hello");
+  $a=$a-25;
+}
+$count=1;
+do{
+  echo "hola";
+  $count=$count+1;
+}while ($count<=5);
+for($count=1;$count<=5;$count++)
+{
+  echo $count;
+}
+$y=(int) 9.9 - 1;
+echo $y;
+?>
